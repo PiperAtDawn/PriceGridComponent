@@ -112,3 +112,23 @@ ul {
 .headers {
     font-weight: bold;
 }
+
+@media only screen and (min-width: 900px) {
+
+    .container {
+        width: 626px;
+    }
+
+
+    .lower-half {
+        flex-direction: row;
+    }
+
+    footer {
+        border-radius: 0 0 12px;
+    }
+
+    .subscription {
+        border-radius: 0 0 0 12px;
+    }
+}
