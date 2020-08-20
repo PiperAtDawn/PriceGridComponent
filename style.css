@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+.container {
+    font-family: Karla, sans-serif;
+    font-size: 16px;
+    width: 311px;
+    box-shadow: 3px 3px 6px #66666665;
+}
+
+.join {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    color:hsl(217, 22%, 67%);
+    line-height: 1.8em;
+    width: 100%;
+}
+
+#join {
+    color: hsl(179, 62%, 43%);
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#money-back {
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+}
+
+.lower-half {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+}
+
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+    width: 100%;
+    padding: 24px;
+}
+
+#full-access {
+    margin-bottom: 34px;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#price {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 10px;
+}
+
+span {
+    color: hsla(203, 44%, 93%, 0.6);
+}
+
+footer {
+    background-color: hsl(179, 62%, 46%);
+    width: 100%;
+    padding: 24px;
+}
+
+footer ul li p {
+    color: hsla(203, 44%, 93%, 0.6);
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    height: 48px;
+    width: 100%;
+    border:none;
+    border-radius:6px;
+    box-shadow: 3px 3px 6px #66666665;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.headers {
+    font-weight: bold;
+}
