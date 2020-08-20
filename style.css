@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
+body {
+    margin: 0;
+}
+
 .container {
     font-family: Karla, sans-serif;
     font-size: 16px;
     width: 311px;
-    box-shadow: 3px 3px 6px #66666665;
+    box-sizing: border-box;
 }
 
 .join {
@@ -14,6 +18,8 @@
     color:hsl(217, 22%, 67%);
     line-height: 1.8em;
     width: 100%;
+    border-radius: 12px 12px 0 0;
+    box-sizing: border-box;
 }
 
 #join {
@@ -32,12 +38,14 @@
     flex-direction: column;
     color: white;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .subscription {
     background-color: hsl(179, 62%, 43%);
     width: 100%;
     padding: 24px;
+    box-sizing: border-box;
 }
 
 #full-access {
@@ -65,6 +73,8 @@ footer {
     background-color: hsl(179, 62%, 46%);
     width: 100%;
     padding: 24px;
+    border-radius: 0 0 12px 12px;
+    box-sizing: border-box;
 }
 
 footer ul li p {
