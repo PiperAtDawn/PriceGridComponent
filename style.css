@@ -139,4 +139,8 @@ ul {
     .subscription {
         border-radius: 0 0 0 12px;
     }
+
+    body {
+        height: 870px;
+    }
 }
