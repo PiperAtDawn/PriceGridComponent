@@ -6,7 +6,9 @@ body {
     align-items: center;
     justify-content: space-around;
     width: auto;
-    height: 800px;
+    min-width: 311px;
+    height: 900px;
+    background-color: hsl(204, 43%, 93%);
 }
 
 .container {
@@ -28,6 +30,7 @@ body {
     width: 100%;
     border-radius: 12px 12px 0 0;
     box-sizing: border-box;
+    background-color: white;
 }
 
 #join {
@@ -141,6 +144,7 @@ ul {
     }
 
     body {
-        height: 870px;
+        height: 800px;
     }
+
 }
